@@ -39,9 +39,9 @@ from logger import LOGGER
 # Initialize the bot client
 bot = Client(
     "media_bot",
-    api_id=PyroConf.API_ID,29308940
-    api_hash=PyroConf.API_HASH,666df5578043cc906ec8f25b05c2f1cb
-    bot_token=PyroConf.BOT_TOKEN,8493075779:AAHs2AOHWxmcUjcP4ZIZ69_xKW0QFYWr4fw
+    api_id=PyroConf.API_ID,
+    api_hash=PyroConf.API_HASH,
+    bot_token=PyroConf.BOT_TOKEN,
     workers=1000,
     parse_mode=ParseMode.MARKDOWN,
 )
